@@ -118,7 +118,8 @@
     flex-direction: column-reverse;
   }
   .aboutCards .card img{
-    align-self: center;
+    width: 70%;
+    height: 50%;
   }
   .aboutCards .card p {
     width: 85%;
