@@ -179,7 +179,11 @@ nav ul {
   border-radius: 20px;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
+<<<<<<< HEAD
   font-weight: 400;
+=======
+  font-weight: 400
+>>>>>>> a7b10e1bb85ad8db37d7d178e3e7c7a03debce9d
 }
 .shopping a:hover {
   box-shadow: 0 0 10px 0;
