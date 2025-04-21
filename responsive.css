@@ -117,7 +117,9 @@
   .aboutCards .card:nth-child(odd) {
     flex-direction: column-reverse;
   }
-  .aboutCards .card img,
+  .aboutCards .card img{
+    align-self: center;
+  }
   .aboutCards .card p {
     width: 85%;
     align-self: center;

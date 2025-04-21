@@ -1,7 +1,7 @@
 let menuHamIcone = document.querySelector(".menu-ham-icone"),
   menuHum = document.querySelector(".menu-ham"),
   navItem = document.querySelectorAll(".nav-item a");
-header = document.querySelector("header");
+  header = document.querySelector("header");
 
 /* header part */
 window.addEventListener("scroll", function () {
