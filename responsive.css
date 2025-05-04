@@ -111,26 +111,24 @@
   }
   /* about */
   .aboutCards {
-    gap: 20px;
+    gap: 50px;
   }
   .aboutCards .card {
     flex-direction: column;
+    padding: 0;
+    border-top: 1px solid #3e3b3b30;
   }
   .aboutCards .card:nth-child(odd) {
     flex-direction: column-reverse;
   }
-  .aboutCards .card img{
-    width: 70%;
-    height: 50%;
+  .aboutCards .card img {
+    width: 40%;
+    height: 60%;
   }
   .aboutCards .card p {
     width: 85%;
     align-self: center;
-  }
-  .aboutCards .card p {
     padding: 15px 0 0 0;
-    border-top: 2px solid #ffffff30;
-    box-sizing: border-box;
   }
   /* contact */
   .parts div {

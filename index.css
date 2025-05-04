@@ -179,11 +179,6 @@ nav ul {
   border-radius: 20px;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
-<<<<<<< HEAD
-  font-weight: 400;
-=======
-  font-weight: 400
->>>>>>> a7b10e1bb85ad8db37d7d178e3e7c7a03debce9d
 }
 .shopping a:hover {
   box-shadow: 0 0 10px 0;
@@ -463,16 +458,16 @@ h5 {
 .aboutCards .card {
   display: flex;
   justify-content: space-around;
-  border-top: 1px solid #ffffff30;
+  border-top: 1px solid #3e3b3b30;
   padding: 50px 10px 0 10px;
-  height: 500px;
+  height: 400px;
   display: flex;
   gap: 15px;
 }
-.aboutCards .card img{
-  margin : auto ; 
-  border-radius: 20%;
-  width: 35%;
+.aboutCards .card img {
+  margin: auto;
+  border-radius: 10%;
+  min-width: 35%;
   height: 80%;
 }
 .aboutCards .card p {
@@ -482,9 +477,10 @@ h5 {
 .aboutCards .card p {
   box-sizing: border-box;
   padding: 70px 30px;
-  line-height: 6;
+  line-height: 3;
   letter-spacing: 2px;
   text-align: center;
+  height: fit-content;
 }
 
 .aboutCards .card p,
